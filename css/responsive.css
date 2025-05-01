@@ -159,6 +159,12 @@ font-size: 13px;
 .athlete {
 grid-template-columns: 1fr;
 }
+.date-of:before {
+max-width: 100%;
+}
+.additional .form-field:last-child {
+max-width: 100%;
+}
 }
 
 
