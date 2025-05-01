@@ -917,19 +917,19 @@ position: relative;
 overflow: hidden;
 }
 .alora-img a {
-position: absolute;
-bottom: 0;
-left: 50%;
-transform: translateX(-50%);
-background: #3d3a4078;
-display: block;
-width: 100%;
-color: #fff;
-text-align: center;
-font-size: 10px;
-font-weight: 500;
-padding: 7px;
-text-decoration: underline;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #3d3a4078;
+    display: block;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 4px;
+    text-decoration: underline;
 }
 .dashboard-tabs {
 background: #1e1e26;
