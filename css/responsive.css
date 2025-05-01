@@ -551,5 +551,8 @@ grid-template-columns: 1fr;
 .athlete-home .form-field:last-child {
 max-width: 100%;
 }
+.location-bar ul a {
+font-size: 11px;
+}
 }
 
