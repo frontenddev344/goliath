@@ -1397,3 +1397,6 @@ display: none;
 display: flex;
 justify-content: end;
 }
+.closed-btnns {
+display: none;
+}
