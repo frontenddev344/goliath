@@ -344,6 +344,24 @@ flex-wrap: nowrap;
 width: 1px;
 height:0px
 }
+.social-entry {
+grid-template-columns: 1fr;
+}
+.additional .form-field:last-child {
+max-width: 100%;
+}
+.alora-text h2 {
+font-size: 30px;
+}
+.preferred .radio-group {
+grid-template-columns: 1fr;
+}
+.optional-parent .grid-cols-2 {
+grid-template-columns: 1fr;
+}
+.additional .grid-cols-2 {
+grid-template-columns: 1fr;
+}
 }
 
 @media screen and (max-width:575px) {
@@ -391,6 +409,60 @@ font-size: 12px;
 .site-nav {
 top: 84px;
 }
+.name-grid {
+grid-template-columns: 1fr;
+}
+.dob-group {
+grid-template-columns: 1fr 1fr;
+}
+.dob-group .form-field select:last-child {
+grid-column: 1 / -1;
+}
+.public {
+padding: 18px 10px;
+}
+.social-entry {
+padding: 18px 10px;
+}
+.parent {
+padding: 18px 10px;
+}
+.heading-bar {
+font-size: 18px;
+}
+.label-bar {
+font-size: 12px;
+margin-bottom: 4px;
+}
+.alora-text h2 {
+font-size: 26px;
+}
+.location-bar ul {
+gap: 7px 12px;
+}
+.alora-img {
+width: 126px;
+height: 126px;
+}
+.alora-flex {
+grid-template-columns: 126px 1fr;
+align-items: center;
+}
+.personal-main {
+padding: 10px 0;
+}
+.parent .athlete-home.grid-cols-2 {
+grid-template-columns: 1fr 1fr;
+}
+.radio-group {
+padding: 10px;
+}
+.form-field select {
+font-size: 12px;
+}
+.form-field input {
+font-size: 12px;
+}
 }
 
 @media screen and (max-width:480px) {
@@ -417,6 +489,31 @@ top: 80px;
 }
 .menu-toggle .bar-1, .bar-2, .bar-3 {
 width: 30px;
+}
+.alora-img {
+width: 100px;
+height: 100px;
+}
+.alora-flex {
+grid-template-columns: 100px 1fr;
+}
+.dashboard-header {
+padding: 24px 15px 0;
+}
+.dashboard-tabs {
+padding: 24px 15px;
+}
+.alora-text h2 {
+font-size: 20px;
+}
+.dashboard-tabs .nav-item button {
+font-size: 12px;
+}
+.athlete-home.grid-cols-2 {
+grid-template-columns: 1fr;
+}
+.athlete-home .form-field:last-child {
+max-width: 100%;
 }
 }
 
