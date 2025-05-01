@@ -268,7 +268,9 @@ margin-top: 23px;
 .personal-main {
 padding: 24px 0;
 }
-
+.dashboard-tabs .nav-pills {
+margin-bottom: 0;
+}
 }
 
 
@@ -366,9 +368,7 @@ grid-template-columns: 1fr;
 .additional .grid-cols-2 {
 grid-template-columns: 1fr;
 }
-.dashboard-tabs .nav-pills {
-        margin-bottom: 0;
-        }
+
 }
 
 @media screen and (max-width:575px) {
