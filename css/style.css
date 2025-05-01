@@ -773,15 +773,15 @@ position: relative;
 
 /*dashboard*/
 .sidebar {
-height: 100%;
-position: fixed;
-z-index: 9999;
-overflow: auto;
-transition: all 210ms linear;
-background: #2d2a31;
-padding: 24px;
-width: 288px;
-}
+    height: 100%;
+    position: fixed;
+    z-index: 9999;
+    overflow: auto;
+    transition: all .5s linear;
+    background: #2d2a31;
+    padding: 24px;
+    width: 288px;
+    }
 
 .overview {
 margin-left: 288px;
@@ -1369,4 +1369,26 @@ inset 0px 0px 0px 0px rgba(255, 255, 255, 1);
 
 .btn-bar .primary-btn:first-child {
 background: transparent;
+}
+
+
+
+.toggle-btn-dasdboard {
+position: relative;
+z-index: 2;
+display: none;
+}
+
+.toggle-btn-dasdboard i {
+font-size: 30px;
+color: #fff;
+}
+
+.closed-btnns i {
+color: #fff;
+font-size: 28px;
+position: absolute;
+top: 0;
+right: 8px;
+display: none;
 }

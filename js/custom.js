@@ -3,7 +3,20 @@ $(document).ready(function(){
     $(".site-nav").slideToggle();
     $(".site-header").toggleClass("mobile-toggle");
   });
-  
+
+
+
+$(document).ready(function(){
+$('.toggle-btn-dasdboard').on('click', function() {
+$('.sidebar , .overview').toggleClass('your-class-name');
+});
+});
+
+$(document).ready(function(){
+$('.closed-btnns').on('click', function() {
+$('.sidebar').removeClass('your-class-name');
+});
+});
 
 
     $('.reels-slider').slick({
@@ -175,3 +188,5 @@ $(".trusted-slider").slick({
     }
   ]
 });
+
+

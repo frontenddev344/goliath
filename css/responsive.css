@@ -139,6 +139,22 @@ line-height: normal;
 font-size: 22px;
 max-width: 600px;
 }
+.sidebar {
+transform: translateX(-600px);
+}
+.overview {
+margin-left: 0;
+width: 100%;
+}
+.sidebar.your-class-name {
+transform: translateX(0px);
+}
+.closed-btnns i {
+display:block;
+}
+.toggle-btn-dasdboard {
+display: block;
+}
 }
 
 @media screen and (max-width:991px) {
@@ -147,7 +163,7 @@ font-size: 36px;
 }
 .section-desc {
 font-size: 20px;
-        max-width: 744px;
+max-width: 744px;
 }
 .start-journey-img {
 margin-top: 0;
