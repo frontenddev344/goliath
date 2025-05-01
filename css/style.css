@@ -1305,6 +1305,7 @@ padding-top: 12px;
 .parent .athlete-home.grid-cols-2 {
 grid-template-columns: 1fr 150px;
 margin-top: 12px;
+gap: 24px;
 }
 .parent .athlete-home .form-field:last-child {
 max-width: 100%;
@@ -1336,7 +1337,10 @@ border-radius: 6px;
 border-style: solid;
 border-color: rgba(255, 255, 255, 0.25);
 border-width: 1px;
-padding: 48px;
+padding: 10px;
+box-shadow: none;
+outline: none;
+color: #fff;
 }
 
 .social-dash .form-field {
@@ -1348,4 +1352,17 @@ position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
+}
+.social-dash .heading-bar-flex {
+margin-bottom: 24px;
+}
+.additional .form-field:last-child {
+grid-column: 1 / -1;
+max-width: 90%;
+}
+.additional .form-field textarea {
+background: #292931;
+box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05),
+inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1),
+inset 0px 0px 0px 0px rgba(255, 255, 255, 1);
 }
