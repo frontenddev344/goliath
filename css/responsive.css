@@ -471,8 +471,11 @@ font-size: 12px;
 font-size: 12px;
 }
 .form-field .dob-group select {
-        grid-column: 1 / -1;
-    }
+grid-column: 1 / -1;
+}
+.dashboard-tabs .nav-pills {
+margin-bottom: 14px;
+}
 }
 
 @media screen and (max-width:480px) {
