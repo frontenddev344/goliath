@@ -189,6 +189,9 @@ display:block;
 .toggle-btn-dasdboard {
 display: block;
 }
+.closed-btnns {
+display: block;
+}
 }
 
 @media screen and (max-width:991px) {
