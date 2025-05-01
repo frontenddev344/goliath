@@ -858,9 +858,9 @@ padding: 24px 24px 0;
 }
 
 .alora-flex {
-display: grid;
-grid-template-columns: 10% 90%;
-align-items: end;
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    align-items: end;
 }
 
 .alora-text {
