@@ -775,7 +775,7 @@ position: relative;
 .sidebar {
 height: 100%;
 position: fixed;
-z-index: 9999;
+z-index: 5;
 overflow: auto;
 transition: all .5s linear;
 background: #2d2a31;
@@ -1404,3 +1404,7 @@ display: none;
 margin-bottom: 24px;
 }
 
+.dashboard .site-footer {
+position: relative;
+z-index: 6;
+}
