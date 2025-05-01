@@ -1,3 +1,29 @@
+@media screen and (max-width:1400px) {
+.location-bar ul a {
+font-size: 14px;
+}
+/* gap */
+.form-bar {
+gap: 10px;
+}
+.dob-group {
+gap: 10px;
+}
+.social-entry {
+gap: 10px;
+}
+.gaps {
+gap: 12px 10px;
+}
+.parent .athlete-home.grid-cols-2 {
+gap: 10px;
+}
+.optional-parent .gaps {
+gap: 10px;
+}
+/* gap close */
+}
+
 
 @media screen and (max-width:1200px) {
 .mobile-menu {
@@ -106,25 +132,8 @@ gap: 50px;
 .footer-logo {
 text-align: left;
 }
-/* gap */
-.form-bar {
-gap: 10px;
-}
-.dob-group {
-gap: 10px;
-}
-.social-entry {
-gap: 10px;
-}
-.gaps {
-gap: 12px 10px;
-}
-.parent .athlete-home.grid-cols-2 {
-gap: 10px;
-}
-.optional-parent .gaps {
-gap: 10px;
-}
+
+
 }
 
 
