@@ -940,7 +940,7 @@ background: #ef4868;
 }
 
 .dashboard-tabs .nav-item button {
-padding: 8px 12px 8px 12px;
+    padding: 8px 17px;
 color: #ffffff;
 font-size: 14px;
 line-height: 20px;
@@ -1399,4 +1399,7 @@ justify-content: end;
 }
 .closed-btnns {
 display: none;
+}
+.dashboard-tabs .nav-pills {
+margin-bottom: 24px;
 }
