@@ -1241,16 +1241,16 @@ padding-right: 10px;
 }
 
 .social-entry {
-border-radius: 6px;
-border-style: solid;
-border-color: rgba(255, 255, 255, 0.25);
-border-width: 1px;
-padding: 24px;
-display: grid;
-grid-template-columns: 1fr 6fr 1fr;
-gap: 24px;
-align-items: end;
-margin-bottom: 12px;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.25);
+    border-width: 1px;
+    padding: 24px;
+    display: grid;
+    grid-template-columns: 160px 1fr 160px;
+    gap: 24px;
+    align-items: end;
+    margin-bottom: 12px;
 }
 .checkbox-field {
 display: flex;

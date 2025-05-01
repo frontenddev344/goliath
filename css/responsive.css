@@ -106,7 +106,28 @@ gap: 50px;
 .footer-logo {
 text-align: left;
 }
+/* gap */
+.form-bar {
+gap: 10px;
 }
+.dob-group {
+gap: 10px;
+}
+.social-entry {
+gap: 10px;
+}
+.gaps {
+gap: 12px 10px;
+}
+.parent .athlete-home.grid-cols-2 {
+gap: 10px;
+}
+.optional-parent .gaps {
+gap: 10px;
+}
+}
+
+
 
 @media screen and (max-width:1024px) {
 .banner-content h1 {
