@@ -165,6 +165,20 @@ max-width: 100%;
 .additional .form-field:last-child {
 max-width: 100%;
 }
+.dashboard-tabs .nav-tabs-scroll-main {
+overflow-x: scroll;
+}
+.dashboard-tabs .nav-tabs-scroll {
+min-width: 479px;
+}
+
+.dashboard-tabs .nav-item button {
+white-space: nowrap;
+}
+
+.dashboard-tabs .nav-pills {
+flex-wrap: nowrap;
+}
 }
 
 
