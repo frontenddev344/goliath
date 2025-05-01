@@ -499,6 +499,9 @@ grid-column: 1 / -1;
 .dashboard-tabs .nav-pills {
 margin-bottom: 14px;
 }
+.start-jouney-content h4 span {
+display: inline;
+}
 }
 
 @media screen and (max-width:480px) {
@@ -515,7 +518,7 @@ padding: 10px 14px;
 font-size: 14px;
 }
 .start-jouney-content h4 {
-font-size: 30px;
+font-size: 25px;
 }
 .tab-content-wrap {
 padding: 25px 10px;
