@@ -276,7 +276,7 @@
                                  </div>
                            
                                  <div class="checkbox-field">
-                                   <label class="label-bar">Show on profile</label>
+                                   <label class="label-bar">Show on profile <sub>*</sub></label>
                                    <input type="checkbox" name="show-profile-1" />
                                  </div>
                                </div>
@@ -301,7 +301,137 @@
                                    <label class="label-bar">Show on profile <sub>*</sub></label>
                                    <input type="checkbox" name="show-profile-2" checked />
                                  </div>
+                              </div>
                            </div>
+
+                           <hr class="line">
+
+                           <div class="form-bar ">
+                              <div class="heading-bar-flex">
+                                 <h3 class="heading-bar">Parent/Guardian Information</h3>
+                                 <button class="primary-btn"><i class="ri-add-circle-line"></i> Add</button>
+                              </div>
+                              <div class="parent">
+                              <div class="name-grid gaps">
+                                 <div class="form-field">
+                                    <label class="label-bar">First name <sub>*</sub></label>
+                                    <input type="text" name="firstName">
+                                 </div>
+                                 <div class="form-field">
+                                    <label class="label-bar">Last name <sub>*</sub></label>
+                                    <input type="text" name="lastName">
+                                 </div>
+                                 <div class="form-field">
+                                    <label class="label-bar">Suffix <sub>*</sub></label>
+                                    <select name="suffix">
+                                       <option value=""></option>
+                                       <option value="Jr">Jr</option>
+                                       <option value="Sr">Sr</option>
+                                       <option value="II">II</option>
+                                       <option value="III">III</option>
+                                    </select>
+                                 </div>
+                                 <div class="form-field">
+                                    <label class="label-bar">Email address <sub>*</sub></label>
+                                    <input type="text" name="lastName" placeholder="name@domain.com">
+                                 </div>
+                               </div>
+                               <div class="athlete gaps">
+                                 <div class="form-field">
+                                    <label class="label-bar">Phone <sub>*</sub></label>
+                                    <input type="text" name="athlete-phone" placeholder="+1-208-406-1069">
+                                 </div>
+                                 <div class="form-field">
+                                    <label class="label-bar">Phone type <sub>*</sub></label>
+                                    <select name="phone-type">
+                                       <option>Mobile</option>
+                                       <option>Home</option>
+                                       <option>Work</option>
+                                    </select>
+                                 </div>
+                                 <div class="radio-group ">
+                                    <div class="subtext">
+                                       <label class="label-bar">May we text you?</label>
+                                       Data rates may apply.
+                                    </div>
+                                    <div class="radio-options">
+                                       <label><input type="radio" name="text-permission" value="yes" checked=""> Yes</label>
+                                       <label><input type="radio" name="text-permission" value="no"> No</label>
+                                    </div>
+                                 </div>
+                               </div>
+
+                               <div class="grid grid-cols-2 athlete-home">
+                                 <div class="form-field">
+                                    <label class="label-bar">Street address <sub>*</sub></label>
+                                    <input type="text" name="firstName">
+                                 </div>
+                                 <div class="form-field">
+                                    <label class="label-bar">Unit/Apartment</label>
+                                    <input type="text" name="lastName">
+                                 </div>
+                               </div>
+
+                               <div class="city-state grid gaps">
+                                 <div class="form-field">
+                                    <label class="label-bar">City <sub>*</sub></label>
+                                    <input type="text" name="city">
+                                 </div>
+                                 <div class="form-field">
+                                    <label class="label-bar">State <sub>*</sub></label>
+                                    <select name="state">
+                                       <option value="UT">UT</option>
+                                       <option value="CA">CA</option>
+                                       <option value="NY">NY</option>
+                                       <option value="TX">TX</option>
+                                    </select>
+                                 </div>
+                                 <div class="form-field">
+                                    <label class="label-bar">ZIP / Postal code <sub>*</sub></label>
+                                    <input type="text" name="zip">
+                                 </div>
+                                 <div class="form-field">
+                                    <label class="label-bar">Country <sub>*</sub></label>
+                                    <select name="country">
+                                       <option>United States</option>
+                                       <option>Canada</option>
+                                       <option>Mexico</option>
+                                    </select>
+                                 </div>
+                                 </div>
+                                 <hr class="line">
+
+                                <div class="optional-parent">
+                                  <h3 class="heading-bar">Optional Parent/Guardian Information</h3>
+                                  <div class="grid grid-cols-2 gaps">
+                                    <div class="form-field">
+                                       <label class="label-bar">Highest level of education received</label>
+                                       <select name="social-channel-1">
+                                         <option>Bachelor’s Degree</option>
+                                       </select>
+                                      </div>
+                                      <div class="form-field">
+                                       <label class="label-bar">University alma mater </label>
+                                       <select name="social-channel-1">
+                                         <option>University of Michigan</option>
+                                       </select>
+                                      </div>
+                                      <div class="form-field">
+                                       <label class="label-bar">College sport </label>
+                                       <select name="social-channel-1">
+                                         <option>Football</option>
+                                       </select>
+                                      </div>
+                                      <div class="form-field">
+                                       <label class="label-bar">Professional sport</label>
+                                       <select name="social-channel-1">
+                                         <option>None</option>
+                                       </select>
+                                      </div>
+                                  </div>
+                                </div>
+
+                              </div>
 
                            </div>
 

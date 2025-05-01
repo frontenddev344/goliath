@@ -1226,6 +1226,7 @@ display: flex;
 justify-content: space-between;
 gap: 10px;
 flex-wrap: wrap;
+margin-bottom: 12px;
 }
 
 .heading-bar-flex .primary-btn {
@@ -1240,12 +1241,91 @@ padding-right: 10px;
 }
 
 .social-entry {
-    border-radius: 6px;
-    border-style: solid;
-    border-color: rgba(255, 255, 255, 0.25);
-    border-width: 1px;
-    padding: 24px;
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    gap: 24px;
-    }
+border-radius: 6px;
+border-style: solid;
+border-color: rgba(255, 255, 255, 0.25);
+border-width: 1px;
+padding: 24px;
+display: grid;
+grid-template-columns: 1fr 6fr 1fr;
+gap: 24px;
+align-items: end;
+margin-bottom: 12px;
+}
+.checkbox-field {
+display: flex;
+align-items: center;
+}
+
+.checkbox-field label {
+margin: 0;
+padding-right: 8px;
+}
+.checkbox-field input {
+width: 18px;
+height: 18px;
+}
+
+
+.checkbox-field input[type="checkbox"] {
+width: 18px;
+height: 18px;
+border: 2px solid #ff3366; /* Choose color here */
+appearance: none;
+background-color: #1c1c22;
+border-radius: 4px;
+position: relative;
+cursor: pointer;
+}
+
+.checkbox-field input[type="checkbox"]:checked::before {
+content: "";
+position: absolute;
+top: 2px;
+left: 5px;
+width: 4px;
+height: 9px;
+border: solid white;
+border-width: 0 2px 2px 0;
+transform: rotate(45deg);
+}
+.social-entry:last-child {
+margin: 0;
+}
+.gaps {
+gap: 12px 24px;
+}
+.parent .name-grid > :last-child {
+grid-column: 1 / -1;
+}
+
+.parent .athlete {
+padding-top: 12px;
+}
+.parent .athlete-home.grid-cols-2 {
+grid-template-columns: 1fr 150px;
+margin-top: 12px;
+}
+.parent .athlete-home .form-field:last-child {
+max-width: 100%;
+}
+.parent .city-state{
+padding-top: 12px;
+}
+.parent {
+border-radius: 6px;
+border-style: solid;
+border-color: rgba(255, 255, 255, 0.25);
+border-width: 1px;
+padding: 24px;
+}
+
+.optional-parent .gaps {
+gap: 24px;
+}
+
+.optional-parent .heading-bar {
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
