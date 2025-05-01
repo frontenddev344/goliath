@@ -179,6 +179,9 @@ white-space: nowrap;
 .dashboard-tabs .nav-pills {
 flex-wrap: nowrap;
 }
+.dashboard-tabs .nav-tabs-scroll::-webkit-scrollbar {
+width: 0px;
+}
 }
 
 
