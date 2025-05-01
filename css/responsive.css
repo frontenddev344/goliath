@@ -150,6 +150,15 @@ border: 0;
 .city-state {
 grid-template-columns: 1fr 1fr;
 }
+.dashboard-tabs .nav-item {
+margin-right: 15px;
+}
+.dashboard-tabs .nav-item button {
+font-size: 13px;
+}
+.athlete {
+grid-template-columns: 1fr;
+}
 }
 
 
@@ -252,6 +261,9 @@ padding: 60px 0;
 }
 .footer-news-letter .form {
 margin-top: 23px;
+}
+.personal-main {
+padding: 24px 0;
 }
 }
 
