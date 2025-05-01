@@ -1394,6 +1394,6 @@ display: none;
 }
 
 .btn-bar {
-    display: flex;
-    justify-content: end;
+display: flex;
+justify-content: end;
 }

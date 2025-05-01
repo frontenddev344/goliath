@@ -132,8 +132,24 @@ gap: 50px;
 .footer-logo {
 text-align: left;
 }
+.sidebar {
+width: 250px;
+}
+.overview {
+margin-left: 250px;
+width: calc(100% - 250px);
+}
 
-
+.date-of {
+grid-template-columns: 1fr;
+}
+.date-of .form-field:nth-child(2) {
+padding: 0;
+border: 0;
+}
+.city-state {
+grid-template-columns: 1fr 1fr;
+}
 }
 
 
