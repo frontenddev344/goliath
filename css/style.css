@@ -1025,46 +1025,52 @@ text-align: center;
 
 
 .form-bar {
-	margin-bottom: 12px;
-	gap: 24px;
+margin-bottom: 12px;
+gap: 24px;
 }
 
 .name-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 150px;
+display: grid;
+grid-template-columns: 1fr 1fr 150px;
 }
 .form-field input {
-	background: var(--white-5, rgba(255, 255, 255, 0.05));
-	border-radius: 6px;
-	align-self: stretch;
-	flex-shrink: 0;
-	height: 36px;
-	position: relative;
-	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05),
-		inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1),
-		inset 0px 0px 0px 0px rgba(255, 255, 255, 1);
-	border: 0;
-	width: 100%;
-	padding: 5px 10px;
-	color: #fff;
+background: var(--white-5, rgba(255, 255, 255, 0.05));
+border-radius: 6px;
+align-self: stretch;
+flex-shrink: 0;
+height: 36px;
+position: relative;
+box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05),
+inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1),
+inset 0px 0px 0px 0px rgba(255, 255, 255, 1);
+border: 0;
+width: 100%;
+padding: 5px 10px;
+color: #fff;
+font-size: 14px;
+line-height: 20px;
+font-weight: 400;
 }
 
 .form-field select {
-    background: var(--white-5, rgba(255, 255, 255, 0.05));
-    border-radius: 6px;
-    align-self: stretch;
-    flex-shrink: 0;
-    height: 36px;
-    position: relative;
-    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05), inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1), inset 0px 0px 0px 0px rgba(255, 255, 255, 1);
-    border: 0;
-    width: 100%;
-    padding: 5px 10px;
-    color: #fff;
-    appearance: none;
-    background-image: url("../images/arrow-bar.svg");
-    background-repeat: no-repeat;
-    background-position: center right;
+background: var(--white-5, rgba(255, 255, 255, 0.05));
+border-radius: 6px;
+align-self: stretch;
+flex-shrink: 0;
+height: 36px;
+position: relative;
+box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05), inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1), inset 0px 0px 0px 0px rgba(255, 255, 255, 1);
+border: 0;
+width: 100%;
+padding: 5px 10px;
+color: #fff;
+appearance: none;
+background-image: url("../images/arrow-bar.svg");
+background-repeat: no-repeat;
+background-position: center right;
+font-size: 14px;
+line-height: 20px;
+font-weight: 400;
 }
 .form-field select option {
 color: #ef4868;
@@ -1073,12 +1079,24 @@ color: #ef4868;
 .date-of {
 display: grid;
 grid-template-columns: 1fr 219px 150px;
+position: relative;
+margin-bottom: 48px;
 }
 
 .dob-group {
 display: grid;
-grid-template-columns: 1fr 80px 150px;
+grid-template-columns: 3.5fr 1fr  1.8fr;
 gap: 24px;
+}
+.date-of:before {
+content: "";
+position: absolute;
+bottom: -24px;
+left: 0;
+background: #57575d;
+height: 1px;
+width: 100%;
+max-width: 95%;
 }
 
 .label-bar sub {
@@ -1094,11 +1112,140 @@ top: 1px;
 outline: none;
 }
 .form-field select:focus {
-    outline: none;
-    }
-    .date-of .form-field:nth-child(2) {
-        border-style: solid;
-        border-color: rgba(255, 255, 255, 0.25);
-        border-width: 0px 1px 0px 1px;
-        padding: 0 24px;
+outline: none;
+}
+.date-of .form-field:nth-child(2) {
+border-style: solid;
+border-color: rgba(255, 255, 255, 0.25);
+border-width: 0px 1px 0px 1px;
+padding: 0 24px;
+}
+.form-field input::placeholder {
+color: #fff;
+font-size: 13px;
+}
+.username {
+padding-top: 12px;
+}
+
+.public {
+display: grid;
+grid-template-columns: 1fr auto;
+border-radius: 6px;
+border-style: solid;
+border-color: rgba(255, 255, 255, 0.25);
+border-width: 1px;
+padding: 24px;
+align-items: end;
+}
+
+
+.public .primary-btn {
+font-size: 14px;
+line-height: 20px;
+font-weight: 600;
+padding: 6px 12px;
+min-height: 36px;
+}
+
+.athlete {
+display: grid;
+grid-template-columns: 1fr 149px 1fr;
+}
+
+.radio-group {
+border-style: solid;
+border-color: rgba(255, 255, 255, 0.25);
+border-width: 1px;
+padding: 8px 24px 8px 24px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 10px;
+flex-wrap: wrap;
+}
+
+.subtext {
+color: #9ca3af;
+font-size: 12px;
+line-height: 12px;
+font-weight: 500;
+}
+
+.subtext .label-bar {
+margin: 0;
+}
+.radio-options input {
+width: 16px;
+height: 16px;
+accent-color: #ef4868;
+}
+.radio-options label {
+color: #ffffff;
+text-align: left;
+font-size: 14px;
+line-height: 24px;
+font-weight: 500;
+display: flex;
+align-items: center;
+gap: 11px;
+}
+.radio-options {
+display: flex;
+gap: 15px;
+}
+
+.athlete-home.grid-cols-2 {
+grid-template-columns: 2fr 1fr;
+}
+.athlete-home .form-field:last-child {
+max-width: 200px;
+}
+.city-state {
+grid-template-columns: 1fr  100px 150px 1fr;
+}
+.preferred .radio-group {
+display: grid;
+grid-template-columns: 1fr 2fr;
+max-width: 653px;
+margin: 0px auto 0;
+}
+.preferred {
+padding-top: 12px;
+}
+.line {
+border-style: solid;
+border-color: rgba(255, 255, 255, 0.25);
+border-width: 1px 0 0 0;
+display: block;
+margin: 24px 0;
+}
+
+.heading-bar-flex {
+display: flex;
+justify-content: space-between;
+gap: 10px;
+flex-wrap: wrap;
+}
+
+.heading-bar-flex .primary-btn {
+padding: 8px 12px;
+font-size: 14px;
+line-height: 14px;
+font-weight: 500;
+}
+
+.heading-bar-flex .primary-btn i {
+padding-right: 10px;
+}
+
+.social-entry {
+    border-radius: 6px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.25);
+    border-width: 1px;
+    padding: 24px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 24px;
     }

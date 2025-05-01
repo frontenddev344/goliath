@@ -129,41 +129,185 @@
                                  </select>
                               </div>
                            </div>
-
                            <div class="form-bar date-of">
                               <div class="form-field">
-                                <label class="label-bar">Date of Birth <sub>*</sub></label>
-                                <div class="dob-group">
-                                  <select name="dob-month">
-                                    <option>June</option>
-                                  </select>
-                                  <select name="dob-day">
-                                    <option>10</option>
-                                  </select>
-                                  <select name="dob-year">
-                                    <option>2003</option>
-                                  </select>
-                                </div>
+                                 <label class="label-bar">Date of Birth <sub>*</sub></label>
+                                 <div class="dob-group">
+                                    <select name="dob-month">
+                                       <option>June</option>
+                                    </select>
+                                    <select name="dob-day">
+                                       <option>10</option>
+                                    </select>
+                                    <select name="dob-year">
+                                       <option>2003</option>
+                                    </select>
+                                 </div>
                               </div>
-                        
                               <div class="form-field">
-                                <label class="label-bar">Graduation Year <sub>*</sub></label>
-                                <select name="grad-year">
-                                  <option>2024</option>
-                                </select>
+                                 <label class="label-bar">Graduation Year <sub>*</sub></label>
+                                 <select name="grad-year">
+                                    <option>2024</option>
+                                 </select>
                               </div>
-                        
                               <div class="form-field">
-                                <label class="label-bar">Gender</label>
-                                <select name="gender">
-                                  <option>Female</option>
-                                </select>
+                                 <label class="label-bar">Gender</label>
+                                 <select name="gender">
+                                    <option>Female</option>
+                                 </select>
                               </div>
-                            </div>
+                           </div>
+                           <h3 class="heading-bar">Contact Information</h3>
+                           <div class="form-bar grid grid-cols-2 username">
+                              <div class="form-field">
+                                 <label class="label-bar">Username <sub>*</sub></label>
+                                 <input type="text" name="firstName" placeholder="@alora-dawn-teel">
+                              </div>
+                              <div class="form-field">
+                                 <label class="label-bar">Email address <sub>*</sub></label>
+                                 <input type="text" name="lastName" placeholder="name@domain.com">
+                              </div>
+                           </div>
+                           <div class="form-bar public">
+                              <div class="form-field">
+                                 <label class="label-bar">Public Profile URL</label>
+                                 <input type="text" name="firstName" placeholder="https://goliathsportsmarketing.com/athlete-profile/softball/alora-dawn-teel">
+                              </div>
+                              <button class="primary-btn">Copy</button>
+                           </div>
+                           <div class="form-bar athlete">
+                              <div class="form-field">
+                                 <label class="label-bar">Athlete phone <sub>*</sub></label>
+                                 <input type="text" name="athlete-phone" placeholder="+1-208-406-1069" />
+                              </div>
+                              <div class="form-field">
+                                 <label class="label-bar">Athlete phone type <sub>*</sub></label>
+                                 <select name="phone-type">
+                                    <option>Mobile</option>
+                                    <option>Home</option>
+                                    <option>Work</option>
+                                 </select>
+                              </div>
+                              <div class="radio-group">
+                                 <div class="subtext">
+                                    <label class="label-bar">May we text you?</label>
+                                    Data rates may apply.
+                                 </div>
+                                 <div class="radio-options">
+                                    <label><input type="radio" name="text-permission" value="yes" checked /> Yes</label>
+                                    <label><input type="radio" name="text-permission" value="no" /> No</label>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="form-bar grid grid-cols-2 athlete-home">
+                              <div class="form-field">
+                                 <label class="label-bar">Athlete home address <sub>*</sub></label>
+                                 <input type="text" name="firstName">
+                              </div>
+                              <div class="form-field">
+                                 <label class="label-bar">Unit/Apartment</label>
+                                 <input type="text" name="lastName">
+                              </div>
+                           </div>
+                           <div class="form-bar city-state grid">
+                              <div class="form-field">
+                                 <label class="label-bar">City <sub>*</sub></label>
+                                 <input type="text" name="city" />
+                              </div>
+                              <div class="form-field">
+                                 <label class="label-bar">State <sub>*</sub></label>
+                                 <select name="state">
+                                    <option value="UT">UT</option>
+                                    <option value="CA">CA</option>
+                                    <option value="NY">NY</option>
+                                    <option value="TX">TX</option>
+                                 </select>
+                              </div>
+                              <div class="form-field">
+                                 <label class="label-bar">ZIP / Postal code <sub>*</sub></label>
+                                 <input type="text" name="zip" />
+                              </div>
+                              <div class="form-field">
+                                 <label class="label-bar">Country <sub>*</sub></label>
+                                 <select name="country">
+                                    <option>United States</option>
+                                    <option>Canada</option>
+                                    <option>Mexico</option>
+                                 </select>
+                              </div>
+                           </div>
+                           <div class="form-bar preferred">
+                              <div class="radio-group">
+                                 <div class="subtext">
+                                    <label class="label-bar">Preferred Contact Method  <sub>*</sub></label>
+                                    <Choice>
+                                    will displayed on your profile
+                                 </div>
+                                 <div class="form-field">
+                                    <select name="email">
+                                       <option>Email</option>
+                                       <option>text@gmail.com</option>
+                                    </select>
+                                 </div>
+                              </div>
+                           </div>
+                           <hr class="line">
+
+                           <div class="form-bar">
+                              <div class="heading-bar-flex">
+                                 <h3 class="heading-bar">Social Media</h3>
+                                 <button class="primary-btn"><i class="ri-add-circle-line"></i> Add</button>
+                              </div>
+
+                              <div class="social-entry">
+                                 <div class="form-field">
+                                   <label class="label-bar">Social Channel <sub>*</sub></label>
+                                   <select name="social-channel-1">
+                                     <option>Instagram</option>
+                                     <option>Twitter/X</option>
+                                     <option>TikTok</option>
+                                     <option>Facebook</option>
+                                   </select>
+                                 </div>
+                           
+                                 <div class="form-field">
+                                   <label class="label-bar">Username <sub>*</sub></label>
+                                   <input type="text" name="username-1" value="alora_teel25" />
+                                 </div>
+                           
+                                 <div class="checkbox-field">
+                                   <label class="label-bar">Show on profile</label>
+                                   <input type="checkbox" name="show-profile-1" />
+                                 </div>
+                               </div>
+                           
+                               <div class="social-entry">
+                                 <div class="form-field">
+                                   <label class="label-bar">Social Channel <sub>*</sub></label>
+                                   <select name="social-channel-2">
+                                     <option selected>Twitter/X</option>
+                                     <option>Instagram</option>
+                                     <option>TikTok</option>
+                                     <option>Facebook</option>
+                                   </select>
+                                 </div>
+                           
+                                 <div class="form-field">
+                                   <label class="label-bar">Username <sub>*</sub></label>
+                                   <input type="text" name="username-2" value="alora_teel2025" />
+                                 </div>
+                           
+                                 <div class="checkbox-field">
+                                   <label class="label-bar">Show on profile <sub>*</sub></label>
+                                   <input type="checkbox" name="show-profile-2" checked />
+                                 </div>
+                           </div>
+
+                           </div>
 
 
-
-                        </div>
+                        </div> 
+                        <!-- personal-main -->
                      </div>
                      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">2
                      </div>
