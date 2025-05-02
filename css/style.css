@@ -1408,3 +1408,23 @@ margin-bottom: 24px;
 position: relative;
 z-index: 6;
 }
+
+
+
+/* Performance Metrics */
+.athlete-height {
+margin-top: 24px;
+}
+.tracker {
+padding-top: 12px;
+}
+.tracker .primary-btn {
+padding: 8px 20px;
+font-size: 14px;
+}
+.tracker{
+align-items: end;
+}
+.space i {
+padding-right: 10px;
+}
