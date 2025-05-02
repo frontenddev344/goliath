@@ -1525,9 +1525,7 @@ font-size: 20px;
 .school-information .name-grid {
 padding-bottom: 12px;
 }
-.school-information {
-padding-top: 24px;
-}
+
 .school-information .heading-bar-flex {
 margin-bottom: 24px;
 }
@@ -1583,4 +1581,12 @@ display: none;
 }
 .academi-files .grid {
 align-items: end;
+}
+
+.school-information {
+padding-top: 24px;
+}
+
+.academi-files.school-information {
+padding-top: 0;
 }
