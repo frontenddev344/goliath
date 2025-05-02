@@ -531,7 +531,7 @@
                                  </select>
                               </div>
                               <div class="form-field">
-                                <label class="label-bar">Athlete Sport <sub>*</sub></label>
+                                <label class="label-bar">Athlete Sport <sub>*</sub> <img src="images/info.svg" alt="info.svg" class="info"></label>
                                 <select>
                                    <option>Women’s Fastpitch Softball</option>
                                  </select>
@@ -577,6 +577,82 @@
                               </div>
                               <button class="primary-btn space"><i class="ri-add-circle-line"></i> Record Measurement</button>
                              </div>
+                             
+                             <div class="chart grid grid-cols-2">
+                              <div class="items">
+                                 <div class="chart-container">
+                                 <canvas id="benchPressChart"></canvas>
+                               </div>
+                              </div>
+                               <div class="items">
+                                <div class="tabless">
+                                  
+                                 <h5 >Measurement History</h5>
+                                 <div class="table-responsive">
+                                    <table class="table  table-borderless align-middle">
+                                       <thead>
+                                       <tr>
+                                          <th>Date</th>
+                                          <th>Value</th>
+                                          <th>Change</th>
+                                          <th></th>
+                                       </tr>
+                                       </thead>
+                                       <tbody>
+                                       <tr>
+                                          <td>09-19-2024</td>
+                                          <td>98 lbs <img src="images/ticky.svg" alt="ticky" class="info"></td>
+                                          <td class="text-success">+0 lbs (0.0%)</td>
+                                          <td class="edit-delete">
+                                             <i class="ri-edit-fill"></i>
+                                             <i class="ri-delete-bin-6-fill"></i>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>09-29-2024</td>
+                                          <td>104 lbs <img src="images/ticky.svg" alt="ticky" class="info"></td>
+                                          <td class="text-success">+6 lbs (0.0%)</td>
+                                          <td class="edit-delete">
+                                             <i class="ri-edit-fill"></i>
+                                             <i class="ri-delete-bin-6-fill"></i>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>10-03-2024</td>
+                                          <td>102 lbs <img src="images/ticky.svg" alt="ticky" class="info"></td>
+                                          <td class="text-danger">-2 lbs (0.0%)</td>
+                                          <td class="edit-delete">
+                                             <i class="ri-edit-fill"></i>
+                                             <i class="ri-delete-bin-6-fill"></i>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>12-12-2024</td>
+                                          <td>131 lbs <img src="images/ticky.svg" alt="ticky" class="info"></td>
+                                          <td class="text-success">+15 lbs (0.0%)</td>
+                                          <td class="edit-delete">
+                                             <i class="ri-edit-fill"></i>
+                                             <i class="ri-delete-bin-6-fill"></i>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>12-23-2024</td>
+                                          <td>131 lbs <img src="images/ticky.svg" alt="ticky" class="info"></td>
+                                          <td class="text-success">+15 lbs (0.0%)</td>
+                                          <td class="edit-delete">
+                                             <i class="ri-edit-fill"></i>
+                                             <i class="ri-delete-bin-6-fill"></i>
+                                          </td>
+                                       </tr>
+                                       </tbody>
+                                    </table>
+                                 </div>
+
+                                </div>
+                              </div>
+                             </div>
+
+                             <hr class="line">
 
 
                         </div>
@@ -653,6 +729,11 @@
       <script src="js/bootstrap.js"></script>
       <script src="js/slick.js"></script>
       <script src="js/custom.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+      <script>
+
+       </script>
 
    </body>
 </html>

@@ -1,3 +1,6 @@
+
+
+
 $(document).ready(function(){
   $(".menu-toggle").click(function() {
     $(".site-nav").slideToggle();
@@ -17,6 +20,67 @@ $('.closed-btnns').on('click', function() {
 $('.sidebar').removeClass('your-class-name');
 });
 });
+
+
+// charts
+const ctx = document.getElementById('benchPressChart').getContext('2d');
+     
+new Chart(ctx, {
+type: 'line',
+data: {
+  labels: ['December 2024', 'January 2025', 'February 2025', 'March 2025'],
+  datasets: [{
+    label: 'Bench Press (lbs.)',
+    data: [80, 180, 230, 290],
+    borderColor: '#f35b8c',
+    backgroundColor: '#f35b8c',
+    tension: 0.3,
+    fill: false,
+    pointBackgroundColor: '#f35b8c',
+    pointBorderColor: '#fff',
+    pointRadius: 5,
+    pointHoverRadius: 7,
+  }]
+},
+options: {
+  plugins: {
+    legend: { display: false },
+    title: {
+      display: true,
+      text: 'Bench Press (lbs.)',
+      color: 'white',
+      align: 'start',
+      padding: 12, // Left-align the title
+      font: {
+        size: 16,
+        weight: 'bold',
+      }
+    }
+  },
+  scales: {
+    y: {
+      beginAtZero: true,
+      ticks: {
+        color: '#ddd',
+        stepSize: 50
+      },
+      grid: {
+        color: '#444',
+        borderDash: [] // Solid grid lines
+      }
+    },
+    x: {
+      ticks: {
+        color: '#ddd'
+      },
+      grid: {
+        display: false
+      }
+    }
+  }
+}
+});
+
 
 
     $('.reels-slider').slick({

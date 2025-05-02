@@ -1428,3 +1428,81 @@ align-items: end;
 .space i {
 padding-right: 10px;
 }
+
+.space{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.tracker .space i {
+font-size: 20px;
+}
+
+.chart-container {
+background: #2d2a31;
+border-radius: 6px;
+padding: 24px;
+}
+canvas {
+display: block;
+}
+img.info {
+padding-left: 5px;
+}
+
+.tabless {
+background: #2d2a31;
+border-radius: 6px;
+padding: 24px;
+}
+.chart {
+gap: 12px;
+}
+.tabless h5 {
+font-size: 18px;
+line-height: 24px;
+font-weight: 600;
+color: var(--white);
+padding-bottom: 12px;
+}
+.table  thead th {
+text-align: left;
+font-size: 14px;
+line-height: 20px;
+font-weight: 600;
+color: #ffffff;
+padding: 0 0 15px;
+}
+.table tbody td {
+padding: 0;
+color: var(--white, #ffffff);
+text-align: left;
+font-size: 14px;
+line-height: 20px;
+font-weight: 500;
+padding: 16px 0;
+}
+.table  thead {
+border-style: solid;
+border-color: #ffffff;
+border-width: 0px 0px 1px 0px;
+}
+.table td.text-success {
+color: #48ef69!important;
+}
+.table td.text-danger {
+color: #C73232!important;
+}
+.edit-delete i {
+font-size: 16px;
+color: #ef4868;
+padding-right: 8px;
+}
+
+.edit-delete i:last-child {
+padding-right: 0;
+}
+.table tbody .edit-delete {
+text-align: end;
+}
