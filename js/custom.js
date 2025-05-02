@@ -49,7 +49,6 @@ options: {
     legend: { display: false },
     title: {
       display: true,
-      text: 'Bench Press (lbs.)',
       color: 'white',
       align: 'start',
       padding: 12, // Left-align the title
