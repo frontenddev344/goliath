@@ -1506,3 +1506,12 @@ padding-right: 0;
 .table tbody .edit-delete {
 text-align: end;
 }
+.softball{
+padding-top: 12px;    
+}
+.softball .grid {
+gap: 24px;
+}
+.top {
+padding-top: 12px;
+}
