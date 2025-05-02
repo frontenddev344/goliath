@@ -22,6 +22,8 @@ $('.sidebar').removeClass('your-class-name');
 });
 
 
+
+
 // charts
 const ctx = document.getElementById('benchPressChart').getContext('2d');
      
@@ -32,12 +34,12 @@ data: {
   datasets: [{
     label: 'Bench Press (lbs.)',
     data: [80, 180, 230, 290],
-    borderColor: '#f35b8c',
-    backgroundColor: '#f35b8c',
+    borderColor: '#ef4868',
+    backgroundColor: '#ef4868',
     tension: 0.3,
     fill: false,
-    pointBackgroundColor: '#f35b8c',
-    pointBorderColor: '#fff',
+    pointBackgroundColor: '#ef4868',
+    pointBorderColor: '#ef4868',
     pointRadius: 5,
     pointHoverRadius: 7,
   }]

@@ -1515,3 +1515,72 @@ gap: 24px;
 .top {
 padding-top: 12px;
 }
+
+.space i {
+font-size: 20px;
+}
+
+
+/* Academics */
+.school-information .name-grid {
+padding-bottom: 12px;
+}
+.school-information {
+padding-top: 24px;
+}
+.school-information .heading-bar-flex {
+margin-bottom: 24px;
+}
+.school-information .form-bar {
+border-radius: 6px;
+border-style: solid;
+border-color: rgba(255, 255, 255, 0.25);
+border-width: 1px;
+padding: 24px;
+position: relative;
+padding-left: 58px;
+}
+.school-information .form-bar img.info {
+position: absolute;
+left: 19px;
+top: 28px;
+}
+
+.upload-btn-main input[type="text"] {
+background-color: #1e1e2f;
+border: 1px solid #555;
+border-radius: 4px;
+padding: 8px;
+color: #fff;
+width: 200px;
+}
+
+.upload-btn-main .upload-btn {
+background-color: #ef476f;
+border: none;
+border-radius: 0;
+padding: 8px 16px;
+cursor: pointer;
+color: #ffffff;
+text-align: center;
+font-size: 14px;
+line-height: 20px;
+font-weight: 600;
+}
+
+.upload-btn-main .file-name {
+color: #EF4868;
+text-decoration: underline;
+padding-left: 12px;
+font-size: 14px;
+line-height: 24px;
+font-weight: 400;
+}
+
+
+.upload-btn-main #fileInput {
+display: none;
+}
+.academi-files .grid {
+align-items: end;
+}

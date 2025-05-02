@@ -720,19 +720,94 @@
                               <button class="primary-btn"> Cancel</button>
                               <button class="primary-btn"> Save</button>
                               </div>
-                            
-                            
-                            
-                            
-                            
+                           
+                        </div>
+                         <!-- personal-main -->
+                     </div>
+                     <!-- Performance Metrics end -->
+                     <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">3
+                        <div class="personal-main">
+                           <h3 class="heading-bar">Academics</h3>
+                           <p class="para">This information will be displayed publicly so be careful what you share.</p>
+                           <div class="school-information">
+                              <div class="heading-bar-flex">
+                                 <h3 class="heading-bar">School Information</h3>
+                                 <button class="primary-btn space"><i class="ri-add-circle-line"></i> Add</button>
+                                </div>
+                              <div class="form-bar">
+                              <img src="images/degree.svg" alt="degree" class="info">
+                              <div class="name-grid gaps">
+                                 <div class="form-field">
+                                    <label class="label-bar">School Name <sub>*</sub></label>
+                                    <input type="text" name="firstName" placeholder="Highland High School">
+                                 </div>
+                                 <div class="form-field">
+                                    <label class="label-bar">School City <sub>*</sub></label>
+                                    <input type="text" name="lastName" placeholder="Pocatello">
+                                 </div>
+                                 <div class="form-field">
+                                    <label class="label-bar">School State <sub>*</sub></label>
+                                    <select name="suffix">
+                                       <option value="Jr">ID (Idaho)</option>
+                                       <option value="Sr">Sr</option>
+                                    </select>
+                                 </div>
+                                 </div>
+                                 <div class="grid grid-cols-3 gaps">
+                                   <div class="form-field">
+                                    <label class="label-bar">School Type <sub>*</sub></label>
+                                    <select name="suffix">
+                                       <option value="Jr">High School</option>
+                                       <option value="Sr">Sr</option>
+                                    </select>
+                                 </div>
+                                  <div class="form-field">
+                                    <label class="label-bar">School Division <sub>*</sub></label>
+                                    <select name="suffix">
+                                       <option value="Jr">High School</option>
+                                    </select>
+                                 </div>
+                                  <div class="form-field">
+                                    <label class="label-bar">School Conference <sub>*</sub></label>
+                                    <select name="suffix">
+                                       <option value="Jr">name@domain.com</option>
+                                    </select>
+                                 </div>
+                                 </div>
+                            </div>
+                           </div>
+
+                           <div class="academi-files school-information">
+                              <div class="heading-bar-flex">
+                                  <h3 class="heading-bar">Academic Files</h3>
+                                  <button class="primary-btn space"><i class="ri-add-circle-line"></i> Add</button>
+                                 </div>
+                              <div class="form-bar">
+                               <img src="images/docu.svg" alt="docu.svg" class="info">
+                               <div class=" grid grid-cols-3 gaps">
+                                  <div class="form-field">
+                                     <label class="label-bar">Document Type <sub>*</sub></label>
+                                     <input type="text" name="firstName" placeholder="Transcript">
+                                  </div>
+                                  <div class="form-field">
+                                     <label class="label-bar">Document Description <sub>*</sub></label>
+                                     <input type="text" name="lastName" placeholder="Fall 2024 Transcript">
+                                  </div>
+                                  <div class="form-field upload-btn-main">
+                                    <button class="upload-btn" onclick="triggerFileUpload()">Upload File</button>
+                                    <input type="file" id="fileInput" onchange="displayFileName()" />
+                                    <span id="fileName" class="file-name">teel_transcript_fall24.docx</span>
+                                  </div>
+                                  </div>
+                             </div>
+                            </div>
                             
                             
 
 
                         </div>
                          <!-- personal-main -->
-                     </div>
-                     <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">3
+
                      </div>
                      <div class="tab-pane fade" id="pills-events" role="tabpanel" aria-labelledby="pills-events-tab">4
                      </div>
@@ -806,8 +881,19 @@
       <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
       <script>
-
+         function triggerFileUpload() {
+           document.getElementById('fileInput').click();
+         }
+       
+         function displayFileName() {
+           const fileInput = document.getElementById('fileInput');
+           const fileNameSpan = document.getElementById('fileName');
+           if (fileInput.files.length > 0) {
+             fileNameSpan.textContent = fileInput.files[0].name;
+           } else {
+             fileNameSpan.textContent = '';
+           }
+         }
        </script>
-
    </body>
 </html>
