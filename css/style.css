@@ -1612,3 +1612,6 @@ max-width: 1243px;
 .test-scores {
 max-width: 1326px;
 }
+.taking-honors .grid-cols-2 {
+grid-template-columns: 1fr 2fr;
+}
