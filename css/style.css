@@ -1615,3 +1615,109 @@ max-width: 1326px;
 .taking-honors .grid-cols-2 {
 grid-template-columns: 1fr 2fr;
 }
+
+
+/* Praveen */
+.events-details-left {
+display: flex;
+gap: 15px;
+}
+.heading-bar-inner {
+color: #ffffff;
+text-align: left;
+font-size: 20px;
+font-weight: 700;
+margin-bottom: 5px;
+}
+.event-details {
+border-radius: 6px;
+border-style: solid;
+border-color: rgba(255, 255, 255, 0.25);
+border-width: 1px;
+padding: 24px;
+margin-bottom: 12px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: relative;
+}
+.events-details-right_hidden {
+display: none;
+position: absolute;
+top: 20px;
+right: 20px;
+}
+.events-para {
+color: #ffffff;
+text-align: left;
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 3px;
+}
+.border-btn {
+border-radius: 6px;
+border-style: solid;
+border-color: #31393e;
+border-width: 1px;
+padding: 8px 10px;
+background-color: #31393e;
+color: #fff;
+font-size: 14px;
+line-height: 17px;
+font-weight: 400;
+}
+.border-btn.active{
+border-color:#ef4868;
+background-color: transparent;
+}
+
+.events-details-right .border-btn {
+margin-right: 10px;
+}
+.heading-bar-flex-coaches {
+margin-top: 30px;
+margin-bottom: 20px;
+}
+.coaching-details {
+display: flex;
+gap: 20px;
+border-radius: 6px;
+border-style: solid;
+border-color: rgba(255, 255, 255, 0.25);
+border-width: 1px;
+padding: 24px;
+margin-bottom: 12px;    
+}
+.coaches-form-wrap {
+width: 100%;
+}
+.coaching-form-icon {
+width: 3%;
+}
+.coaching-form-area {
+width: 97%;
+}
+.coaching-form-bar1 {
+display: grid;
+grid-template-columns: 1fr 1fr 250px;
+}
+.coaches-form-wrap {
+width: 100%;
+display: flex;
+}
+.form-bar.coaching-form-bar2 {
+display: grid;
+grid-template-columns: repeat(3,1fr);
+}
+.coaches-tab-card-wrap {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.coaches-tabs-card {
+width: 49%;
+}
+.coaches-tabs-card .event-details {
+align-items: flex-start;
+}
+/* Praveen */
