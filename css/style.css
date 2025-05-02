@@ -1590,3 +1590,22 @@ padding-top: 24px;
 .academi-files.school-information {
 padding-top: 0;
 }
+
+.flex-of {
+width: 100%;
+display: grid;
+grid-template-columns: 1fr auto 1fr;
+gap: 10px;
+align-items: center;
+}
+
+.cumulative span.align-center {
+font-size: 14px;
+line-height: 24px;
+font-weight: 500;
+color: #fff;
+}
+
+.cumulative {
+max-width: 1243px;
+}
