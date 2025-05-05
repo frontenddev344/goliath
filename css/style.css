@@ -1729,3 +1729,41 @@ line-height: 24px;
 font-weight: 600;
 color: var(--white);
 }
+
+
+
+/* profile page start */
+.profile-bnnr {
+padding: 0;
+position: relative;
+}
+
+.profile-bnnr .banner-img {
+width: 100%;
+}
+
+.profile-bnnr .banner-img img {
+width: 100%;
+object-fit: cover;
+}
+
+.profile-page .site-header {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+background: rgba(49, 57, 62, 0.75);
+}
+.banner-shape {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+}
+
+.banner-shape img {
+width: 100%;
+}
+.profile-top {
+    background: #1e1e26;
+}
