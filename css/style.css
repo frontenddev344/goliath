@@ -1995,6 +1995,7 @@ background: #2d2a31;
 border-radius: 6px;
 padding: 22.72px;
 margin-bottom: 24px;
+position: relative;
 }
 .boxex-first {
 display: flex;
@@ -2297,14 +2298,67 @@ margin: 0;
 }
 
 .bottom-arrow {
-    background: #ef4868;
-    border-radius: 6px;
-    text-align: center;
-    padding: 0px;
-    margin-top: 24px;
+background: #ef4868;
+border-radius: 6px;
+text-align: center;
+padding: 0px;
+margin-top: 24px;
 }
 
 .bottom-arrow i {
 color: #fff;
 font-size: 24px;
+}
+
+
+/* profile second */
+
+.sign-view { background: #221f26; border-radius: 6px; border-style: solid; border-color: #ef4868; border-width: 2px; padding: 24px; color: #ffffff; text-align: left; font-size: 16px; font-weight: 400; transition:all .3s ease ; -webkit-transition:all .3s ease ; -moz-transition:all .3s ease ; -ms-transition:all .3s ease ; -o-transition:all .3s ease ;
+}
+.sign-view:hover {
+background: #ef4868;
+color: #fff;
+}
+
+.complete-profile {
+position: absolute;
+top: 50%;
+left: 50%;
+background: #000000ad;
+width: 100%;
+transform: translate(-50%, -50%);
+z-index: 3;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+}
+.slider {
+position: relative;
+}
+
+.complete-profile h3 {
+color: #ffffff;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+}
+
+.complete-profile .primary-btn {
+width: 100%;
+max-width: 250px;
+margin: 24px 0;
+}
+
+.complete-profile p {
+color: #ffffff;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+}
+
+.complete-profile p a {
+text-decoration: underline;
 }
