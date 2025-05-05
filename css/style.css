@@ -2275,3 +2275,23 @@ height: 85px;
 .primary-chat .icon-flexs .icon-img img {
 border-radius: 6px;
 }
+.tracker-bars .heading-bar-flex {
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+.tracker-bars .heading-bar-flex {
+display: grid;
+grid-template-columns: 1fr 1fr;
+align-items: center;
+}
+
+.heading-bar-flex .form-field {
+display: grid;
+grid-template-columns: auto 1fr;
+gap: 12px;
+align-items: center;
+}
+
+.heading-bar-flex .form-field .label-bar {
+margin: 0;
+}

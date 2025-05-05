@@ -37,10 +37,7 @@ text.innerHTML = text.innerText
 
 
 
-// Инициализация превью слайдера
 const sliderThumbs = new Swiper(".slider__thumbs .swiper-container", {
-  // ищем слайдер превью по селектору
-  // задаем параметры
   direction: "vertical", // вертикальная прокрутка
   slidesPerView: 3, // показывать по 3 превью
   spaceBetween: 24, // расстояние между слайдами
