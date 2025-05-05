@@ -2362,3 +2362,35 @@ font-weight: 400;
 .complete-profile p a {
 text-decoration: underline;
 }
+
+.complete-see {
+    background: #ef4868;
+    border-radius: 6px;
+    padding: 24px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.complete-see h3 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.complete-see .primary-btn {
+    background: #ffffff;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 1px;
+    color: #ef4868;
+    margin: 24px 0;
+}
+
+.complete-see p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
