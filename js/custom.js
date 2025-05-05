@@ -22,6 +22,20 @@ $('.sidebar').removeClass('your-class-name');
 });
 
 
+// text roate
+const text = document.getElementById("image-text");
+text.innerHTML = text.innerText
+  .split("")
+  .map(
+    (char, i) =>
+      `<span class="char" style="transform: rotate(${
+        i * 10.5
+      }deg);">${char}</span>`
+  )
+  .join("");
+
+
+  
 
 
 // charts
