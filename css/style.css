@@ -2297,10 +2297,11 @@ margin: 0;
 }
 
 .bottom-arrow {
-background: #ef4868;
-border-radius: 6px;
-text-align: center;
-padding: 0px;
+    background: #ef4868;
+    border-radius: 6px;
+    text-align: center;
+    padding: 0px;
+    margin-top: 24px;
 }
 
 .bottom-arrow i {
