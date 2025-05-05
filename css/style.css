@@ -2295,3 +2295,15 @@ align-items: center;
 .heading-bar-flex .form-field .label-bar {
 margin: 0;
 }
+
+.bottom-arrow {
+background: #ef4868;
+border-radius: 6px;
+text-align: center;
+padding: 0px;
+}
+
+.bottom-arrow i {
+color: #fff;
+font-size: 24px;
+}
