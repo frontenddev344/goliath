@@ -1281,5 +1281,65 @@
            }
          }
        </script>
+             <script>
+               // charts
+      const ctx = document.getElementById('benchPressChart').getContext('2d');
+           
+           new Chart(ctx, {
+           type: 'line',
+           data: {
+             labels: ['December 2024', 'January 2025', 'February 2025', 'March 2025'],
+             datasets: [{
+               label: 'Bench Press (lbs.)',
+               data: [80, 180, 230, 290],
+               borderColor: '#ef4868',
+               backgroundColor: '#ef4868',
+               tension: 0.3,
+               fill: false,
+               pointBackgroundColor: '#ef4868',
+               pointBorderColor: '#ef4868',
+               pointRadius: 5,
+               pointHoverRadius: 7,
+             }]
+           },
+           options: {
+             plugins: {
+               legend: { display: false },
+               title: {
+                 display: true,
+                 color: 'white',
+                 align: 'start',
+                 padding: 12, // Left-align the title
+                 font: {
+                   size: 16,
+                   weight: 'bold',
+                 }
+               }
+             },
+             scales: {
+               y: {
+                 beginAtZero: true,
+                 ticks: {
+                   color: '#ddd',
+                   stepSize: 50
+                 },
+                 grid: {
+                   color: '#444',
+                   borderDash: [] // Solid grid lines
+                 }
+               },
+               x: {
+                 ticks: {
+                   color: '#ddd'
+                 },
+                 grid: {
+                   display: false
+                 }
+               }
+             }
+           }
+           });
+           
+            </script>
    </body>
 </html>
