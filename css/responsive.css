@@ -1,611 +1,793 @@
 @media screen and (max-width:1400px) {
-.location-bar ul a {
-font-size: 14px;
-}
-/* gap */
-.form-bar {
-gap: 10px;
-}
-.dob-group {
-gap: 10px;
-}
-.social-entry {
-gap: 10px;
-}
-.gaps {
-gap: 12px 10px;
-}
-.parent .athlete-home.grid-cols-2 {
-gap: 10px;
-}
-.optional-parent .gaps {
-gap: 10px;
-}
-.softball .grid {
-gap: 10px;
-}
-/* gap close */
+        .location-bar ul a {
+                font-size: 14px;
+        }
+
+        /* gap */
+        .form-bar {
+                gap: 10px;
+        }
+
+        .dob-group {
+                gap: 10px;
+        }
+
+        .social-entry {
+                gap: 10px;
+        }
+
+        .gaps {
+                gap: 12px 10px;
+        }
+
+        .parent .athlete-home.grid-cols-2 {
+                gap: 10px;
+        }
+
+        .optional-parent .gaps {
+                gap: 10px;
+        }
+
+        .softball .grid {
+                gap: 10px;
+        }
+
+        /* gap close */
 
 }
 
 
 @media screen and (max-width:1200px) {
-.mobile-menu {
-display: block;
-}
-.site-nav {
-position: fixed;
-top: 100px;
-left: 0;
-right: 0;
-bottom: 0;
-width: 100%;
-background: #603d49;
-transition: 0.4s cubic-bezier(0, 0, 0.13, 0.61);
-z-index: 99;
-overflow-y: auto;
-margin: 0;
-border-top: 1px solid var(--theme-clr);
-display: none;
-}
+        .mobile-menu {
+                display: block;
+        }
 
-.site-nav ul {
-display: block;
-padding: 47px 18px 0;
-}
+        .site-nav {
+                position: fixed;
+                top: 100px;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                width: 100%;
+                background: #603d49;
+                transition: 0.4s cubic-bezier(0, 0, 0.13, 0.61);
+                z-index: 99;
+                overflow-y: auto;
+                margin: 0;
+                border-top: 1px solid var(--theme-clr);
+                display: none;
+        }
 
-.site-nav li {
-margin: 0 0 20px;
-}
-.site-nav li a {
-color: #fff;
-}
+        .site-nav ul {
+                display: block;
+                padding: 47px 18px 0;
+        }
 
-.menu-toggle {
-display: block;
-}
+        .site-nav li {
+                margin: 0 0 20px;
+        }
 
-.site-nav .closed-menu {
-font-size: 40px;
-color: #fff;
-position: absolute;
-top: 25px;
-right: 15px;
-display: inline-block;
-}
-.site-header .secondary-btn {
-margin-left: auto;
-margin-right: 40px;
-}
-.section-heading {
-font-size: 40px;
-}
+        .site-nav li a {
+                color: #fff;
+        }
 
-.section-desc {
-font-size: 24px;
-max-width: 600px;
-}
-.banner-content h1 {
-font-size: 50px;
-}
+        .menu-toggle {
+                display: block;
+        }
 
-.banner-content p {
-font-size: 35px;
-line-height: 1;
-color: #fff;
-font-weight: 600;
-margin: 0;
-}
-.start-jouney-content h4 {
-font-size: 40px;
-}
-.start-jouney-content p {
-font-size: 20px;
-}
-.section-title {
-font-size: 50px;
-}
-.section-desc {
-font-size: 20px;
-max-width: 700px;
-}
-.nav-tabs .nav-item .nav-link {
-padding: 15px 25px;
-font-size: 18px;
-min-width: auto;
-}
-.features li p {
-font-size: 17px;
-}
-.features li h4 {
-font-size: 22px;
-}
-.pricing-section-content h2 {
-font-size: 42px;
-}
-.pricing-section-content .installments {
-font-size: 18px;
-}
-.footer-links a, .footer-contact a {
-font-size: 13.5px;
-}
-.footer-top {
-grid-template-columns: 2.5fr 1fr 1fr;
-gap: 50px;
-}
-.footer-logo {
-text-align: left;
-}
-.sidebar {
-width: 250px;
-}
-.overview {
-margin-left: 250px;
-width: calc(100% - 250px);
-}
+        .site-nav .closed-menu {
+                font-size: 40px;
+                color: #fff;
+                position: absolute;
+                top: 25px;
+                right: 15px;
+                display: inline-block;
+        }
 
-.date-of {
-grid-template-columns: 1fr;
-}
-.date-of .form-field:nth-child(2) {
-padding: 0;
-border: 0;
-}
-.city-state {
-grid-template-columns: 1fr 1fr;
-}
-.dashboard-tabs .nav-item {
-margin-right: 15px;
-}
-.dashboard-tabs .nav-item button {
-font-size: 13px;
-}
-.athlete {
-grid-template-columns: 1fr;
-}
-.date-of:before {
-max-width: 100%;
-}
-.additional .form-field:last-child {
-max-width: 100%;
-}
-.dashboard-tabs .nav-tabs-scroll-main {
-overflow-x: scroll;
-}
-.dashboard-tabs .nav-tabs-scroll {
-min-width: 479px;
-}
+        .site-header .secondary-btn {
+                margin-left: auto;
+                margin-right: 40px;
+        }
 
-.dashboard-tabs .nav-item button {
-white-space: nowrap;
-}
+        .section-heading {
+                font-size: 40px;
+        }
 
-.dashboard-tabs .nav-pills {
-flex-wrap: nowrap;
-}
-.dashboard-tabs .nav-tabs-scroll::-webkit-scrollbar {
-width: 0px;
-}
-.grid-cols-4 {
-grid-template-columns: repeat(3, 1fr);
-}
-.tracker.grid-cols-4 {
-grid-template-columns: 1fr 1fr;
-}
+        .section-desc {
+                font-size: 24px;
+                max-width: 600px;
+        }
+
+        .banner-content h1 {
+                font-size: 50px;
+        }
+
+        .banner-content p {
+                font-size: 35px;
+                line-height: 1;
+                color: #fff;
+                font-weight: 600;
+                margin: 0;
+        }
+
+        .start-jouney-content h4 {
+                font-size: 40px;
+        }
+
+        .start-jouney-content p {
+                font-size: 20px;
+        }
+
+        .section-title {
+                font-size: 50px;
+        }
+
+        .section-desc {
+                font-size: 20px;
+                max-width: 700px;
+        }
+
+        .nav-tabs .nav-item .nav-link {
+                padding: 15px 25px;
+                font-size: 18px;
+                min-width: auto;
+        }
+
+        .features li p {
+                font-size: 17px;
+        }
+
+        .features li h4 {
+                font-size: 22px;
+        }
+
+        .pricing-section-content h2 {
+                font-size: 42px;
+        }
+
+        .pricing-section-content .installments {
+                font-size: 18px;
+        }
+
+        .footer-links a,
+        .footer-contact a {
+                font-size: 13.5px;
+        }
+
+        .footer-top {
+                grid-template-columns: 2.5fr 1fr 1fr;
+                gap: 50px;
+        }
+
+        .footer-logo {
+                text-align: left;
+        }
+
+        .sidebar {
+                width: 250px;
+        }
+
+        .overview {
+                margin-left: 250px;
+                width: calc(100% - 250px);
+        }
+
+        .date-of {
+                grid-template-columns: 1fr;
+        }
+
+        .date-of .form-field:nth-child(2) {
+                padding: 0;
+                border: 0;
+        }
+
+        .city-state {
+                grid-template-columns: 1fr 1fr;
+        }
+
+        .dashboard-tabs .nav-item {
+                margin-right: 15px;
+        }
+
+        .dashboard-tabs .nav-item button {
+                font-size: 13px;
+        }
+
+        .athlete {
+                grid-template-columns: 1fr;
+        }
+
+        .date-of:before {
+                max-width: 100%;
+        }
+
+        .additional .form-field:last-child {
+                max-width: 100%;
+        }
+
+        .dashboard-tabs .nav-tabs-scroll-main {
+                overflow-x: scroll;
+        }
+
+        .dashboard-tabs .nav-tabs-scroll {
+                min-width: 479px;
+        }
+
+        .dashboard-tabs .nav-item button {
+                white-space: nowrap;
+        }
+
+        .dashboard-tabs .nav-pills {
+                flex-wrap: nowrap;
+        }
+
+        .dashboard-tabs .nav-tabs-scroll::-webkit-scrollbar {
+                width: 0px;
+        }
+
+        .grid-cols-4 {
+                grid-template-columns: repeat(3, 1fr);
+        }
+
+        .tracker.grid-cols-4 {
+                grid-template-columns: 1fr 1fr;
+        }
 }
 
 
 
 @media screen and (max-width:1024px) {
-.banner-content h1 {
-font-size: 52px;
-line-height: normal;
-}
+        .banner-content h1 {
+                font-size: 52px;
+                line-height: normal;
+        }
 
-.section-desc {
-font-size: 22px;
-max-width: 600px;
-}
-.sidebar {
-transform: translateX(-600px);
-}
-.overview {
-margin-left: 0;
-width: 100%;
-}
-.sidebar.your-class-name {
-transform: translateX(0px);
-}
-.closed-btnns i {
-display:block;
-}
-.toggle-btn-dasdboard {
-display: block;
-}
-.closed-btnns {
-display: block;
-}
+        .section-desc {
+                font-size: 22px;
+                max-width: 600px;
+        }
+
+        .sidebar {
+                transform: translateX(-600px);
+        }
+
+        .overview {
+                margin-left: 0;
+                width: 100%;
+        }
+
+        .sidebar.your-class-name {
+                transform: translateX(0px);
+        }
+
+        .closed-btnns i {
+                display: block;
+        }
+
+        .toggle-btn-dasdboard {
+                display: block;
+        }
+
+        .closed-btnns {
+                display: block;
+        }
 }
 
 @media screen and (max-width:991px) {
-.section-heading {
-font-size: 36px;
-}
-.section-desc {
-font-size: 20px;
-max-width: 744px;
-}
-.start-journey-img {
-margin-top: 0;
-height: 100%;
-width: 100%;
-margin: 0;
-text-align: center;
-}
 
-.building-warp .grid {
-grid-template-columns: repeat(2, 1fr);
-}
-.start-journey-img img {
-width: 100%;
-height: 100%;
-max-width: 461px;
-}
-.start-journey .grid .item:first-child {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-z-index: 0;
-        opacity: 0.4;
-}
-.start-journey .grid {
-grid-template-columns: 1fr;
-}
-.start-jouney-content {
-padding: 60px 0;
-}
-.start-jouney-bg:before {
-content: "";
-position: absolute;
-top: 0;
-left: 0;
-background: #00000096;
-width: 100%;
-height: 100%;
-}
-.tab-content-wrap {
-padding: 30px 30px;
-grid-gap: 18px;
-}
-.pricing-section-content hr {
-width: calc(100% + 10px);
-}
-.pricing-section-content {
-padding-right: 10px;
-}
-.nav-tabs {
-gap: 9px;
-}
-.nav-tabs .nav-item .nav-link {
-padding: 11px 15px;
-font-size: 14px;
-}
-.footer-content {
-padding: 60px 0;
-}
-.footer-news-letter .form {
-margin-top: 23px;
-}
-.personal-main {
-padding: 24px 0;
-}
-.dashboard-tabs .nav-pills {
-margin-bottom: 0;
-}
-.form-field input {
-font-size: 12px;
-}
-.form-field select {
-font-size: 12px;
-}
+        /* karishma styling */
+        .test-scores {
+                grid-template-columns: auto auto auto;
+        }
+
+        /* karishma styling */
+        .section-heading {
+                font-size: 36px;
+        }
+
+        .section-desc {
+                font-size: 20px;
+                max-width: 744px;
+        }
+
+        .start-journey-img {
+                margin-top: 0;
+                height: 100%;
+                width: 100%;
+                margin: 0;
+                text-align: center;
+        }
+
+        .building-warp .grid {
+                grid-template-columns: repeat(2, 1fr);
+        }
+
+        .start-journey-img img {
+                width: 100%;
+                height: 100%;
+                max-width: 461px;
+        }
+
+        .start-journey .grid .item:first-child {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 0;
+                opacity: 0.4;
+        }
+
+        .start-journey .grid {
+                grid-template-columns: 1fr;
+        }
+
+        .start-jouney-content {
+                padding: 60px 0;
+        }
+
+        .start-jouney-bg:before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                background: #00000096;
+                width: 100%;
+                height: 100%;
+        }
+
+        .tab-content-wrap {
+                padding: 30px 30px;
+                grid-gap: 18px;
+        }
+
+        .pricing-section-content hr {
+                width: calc(100% + 10px);
+        }
+
+        .pricing-section-content {
+                padding-right: 10px;
+        }
+
+        .nav-tabs {
+                gap: 9px;
+        }
+
+        .nav-tabs .nav-item .nav-link {
+                padding: 11px 15px;
+                font-size: 14px;
+        }
+
+        .footer-content {
+                padding: 60px 0;
+        }
+
+        .footer-news-letter .form {
+                margin-top: 23px;
+        }
+
+        .personal-main {
+                padding: 24px 0;
+        }
+
+        .dashboard-tabs .nav-pills {
+                margin-bottom: 0;
+        }
+
+        .form-field input {
+                font-size: 12px;
+        }
+
+        .form-field select {
+                font-size: 12px;
+        }
 }
 
 
 @media screen and (max-width:768px) {
-.banner-content h1 {
-font-size: 35px;
-margin: 20px 0 20px;
-}
-.footer-top {
-grid-template-columns: 1fr;
-gap: 23px;
-}
-.footer-content {
-padding: 50px 0;
-}
-.footer-bottom p {
-font-size: 14px;
-}
-.banner-content p {
-font-size: 30px;
-}
-.site-banner {
-padding: 70px 0;
-}
-.building-sec {
-padding: 60px 0;
-}
-.section-title {
-font-size: 40px;
-}
-.start-jouney-content p {
-font-size: 18px;
-}
-.section-desc {
-font-size: 18px;
-}
-.building-card h4 {
-font-size: 20px;
-}
-.building-card p {
-font-size: 16px;
-}
-.your-path {
-padding: 60px 0 80px;
-}
-.features li h4 {
-font-size: 18px;
-}
-.features li p {
-font-size: 16px;
-}
-.pricing-section-content .installments {
-font-size: 16px;
-}
-.pricing-section-content .description {
-font-size: 16px;
-}
-.pricing-section-content h2 {
-font-size: 34px;
-}
-.tab-content-wrap {
-grid-template-columns: 1fr;
-}
-.pricing-section {
-border-right: 0;
-}
-.nav-tabs-scroll-main {
-overflow-x: scroll;
-}
-.nav-tabs-scroll {
-min-width: 479px;
-}
-.nav-tabs {
-flex-wrap: nowrap;
-}
-.nav-tabs-scroll-main::-webkit-scrollbar {
-width: 1px;
-height:0px
-}
-.social-entry {
-grid-template-columns: 1fr;
-}
-.additional .form-field:last-child {
-max-width: 100%;
-}
-.alora-text h2 {
-font-size: 30px;
-}
-.preferred .radio-group {
-grid-template-columns: 1fr;
-}
-.optional-parent .grid-cols-2 {
-grid-template-columns: 1fr;
-}
-.additional .grid-cols-2 {
-grid-template-columns: 1fr;
-}
-.personal-main .grid-cols-4 {
-grid-template-columns: repeat(2, 1fr);
-}
-.personal-main .grid-cols-3 {
-grid-template-columns: 1fr 1fr;
-}
-.slider__flex {
-flex-direction: column-reverse;
-}
-.slider__col {
-flex-direction: row;
-align-items: center;
-margin-right: 0;
-margin-top: 24px;
-width: 100%;
-}
-.slider__images {
-width: 100%;
-}
-.slider__thumbs {
-height: 100px;
-width: calc(100% - 96px);
-margin: 0 16px;
-}
-.slider__prev,
-.slider__next {
-height: auto;
-width: 32px;
-}
+
+        /* k */
+        .events-details-right {
+                margin-left: 40px;
+        }
+
+        .event-details {
+                justify-content: space-between;
+                align-items: flex-start;
+                flex-direction: column;
+                gap: 20px;
+        }
+
+        .events-details-right img {
+                position: absolute;
+                top: 20px;
+                right: 10px;
+        }
+
+        /* k */
+        .banner-content h1 {
+                font-size: 35px;
+                margin: 20px 0 20px;
+        }
+
+        .footer-top {
+                grid-template-columns: 1fr;
+                gap: 23px;
+        }
+
+        .footer-content {
+                padding: 50px 0;
+        }
+
+        .footer-bottom p {
+                font-size: 14px;
+        }
+
+        .banner-content p {
+                font-size: 30px;
+        }
+
+        .site-banner {
+                padding: 70px 0;
+        }
+
+        .building-sec {
+                padding: 60px 0;
+        }
+
+        .section-title {
+                font-size: 40px;
+        }
+
+        .start-jouney-content p {
+                font-size: 18px;
+        }
+
+        .section-desc {
+                font-size: 18px;
+        }
+
+        .building-card h4 {
+                font-size: 20px;
+        }
+
+        .building-card p {
+                font-size: 16px;
+        }
+
+        .your-path {
+                padding: 60px 0 80px;
+        }
+
+        .features li h4 {
+                font-size: 18px;
+        }
+
+        .features li p {
+                font-size: 16px;
+        }
+
+        .pricing-section-content .installments {
+                font-size: 16px;
+        }
+
+        .pricing-section-content .description {
+                font-size: 16px;
+        }
+
+        .pricing-section-content h2 {
+                font-size: 34px;
+        }
+
+        .tab-content-wrap {
+                grid-template-columns: 1fr;
+        }
+
+        .pricing-section {
+                border-right: 0;
+        }
+
+        .nav-tabs-scroll-main {
+                overflow-x: scroll;
+        }
+
+        .nav-tabs-scroll {
+                min-width: 479px;
+        }
+
+        .nav-tabs {
+                flex-wrap: nowrap;
+        }
+
+        .nav-tabs-scroll-main::-webkit-scrollbar {
+                width: 1px;
+                height: 0px
+        }
+
+        .social-entry {
+                grid-template-columns: 1fr;
+        }
+
+        .additional .form-field:last-child {
+                max-width: 100%;
+        }
+
+        .alora-text h2 {
+                font-size: 30px;
+        }
+
+        .preferred .radio-group {
+                grid-template-columns: 1fr;
+        }
+
+        .optional-parent .grid-cols-2 {
+                grid-template-columns: 1fr;
+        }
+
+        .additional .grid-cols-2 {
+                grid-template-columns: 1fr;
+        }
+
+        .personal-main .grid-cols-4 {
+                grid-template-columns: repeat(2, 1fr);
+        }
+
+        .personal-main .grid-cols-3 {
+                grid-template-columns: 1fr 1fr;
+        }
+
+        .slider__flex {
+                flex-direction: column-reverse;
+        }
+
+        .slider__col {
+                flex-direction: row;
+                align-items: center;
+                margin-right: 0;
+                margin-top: 24px;
+                width: 100%;
+        }
+
+        .slider__images {
+                width: 100%;
+        }
+
+        .slider__thumbs {
+                height: 100px;
+                width: calc(100% - 96px);
+                margin: 0 16px;
+        }
+
+        .slider__prev,
+        .slider__next {
+                height: auto;
+                width: 32px;
+        }
 }
 
 @media screen and (max-width:575px) {
-.site-logo img {
-max-width: 150px;
-}
-.banner-content h1 {
-font-size: 30px;
-}
-.banner-content p {
-font-size: 20px;
-}
 
-.section-heading {
-font-size: 28px;
-}
+        /* k */
+        .test-scores {
+                grid-template-columns: 1fr 1fr;
+        }
 
-.section-desc {
-font-size: 18px;
-margin-bottom: 30px;
-}
-.start-jouney-content h4 {
-font-size: 30px;
-}
-.building-warp .grid {
-grid-template-columns: 1fr;
-}
-.section-title {
-font-size: 30px;
-}
-.section-desc {
-font-size: 16px;
-}
-.footer-news-letter .form form input {
-flex-grow: unset;
-width: 100%;
-font-size: 12px;
-}
-.footer-news-letter  .primary-btn {
-padding: 8px 8px;
-}
-.footer-bottom p {
-font-size: 12px;
-}
-.site-nav {
-top: 84px;
-}
-.name-grid {
-grid-template-columns: 1fr;
-}
-.dob-group {
-grid-template-columns: 1fr 1fr;
-}
-.dob-group .form-field select:last-child {
-grid-column: 1 / -1;
-}
-.public {
-padding: 18px 10px;
-}
-.social-entry {
-padding: 18px 10px;
-}
-.parent {
-padding: 18px 10px;
-}
-.heading-bar {
-font-size: 18px;
-}
-.label-bar {
-font-size: 12px;
-margin-bottom: 4px;
-}
-.alora-text h2 {
-font-size: 26px;
-}
-.location-bar ul {
-gap: 7px 12px;
-}
-.alora-img {
-width: 126px;
-height: 126px;
-}
-.alora-flex {
-grid-template-columns: 126px 1fr;
-align-items: center;
-}
-.personal-main {
-padding: 10px 0;
-}
-.parent .athlete-home.grid-cols-2 {
-grid-template-columns: 1fr 1fr;
-}
-.radio-group {
-padding: 10px;
-}
-.form-field select {
-font-size: 12px;
-}
-.form-field input {
-font-size: 12px;
-}
-.form-field .dob-group select {
-grid-column: 1 / -1;
-}
-.dashboard-tabs .nav-pills {
-margin-bottom: 14px;
-}
-.start-jouney-content h4 span {
-display: inline;
-}
+        /* k */
+        .site-logo img {
+                max-width: 150px;
+        }
+
+        .banner-content h1 {
+                font-size: 30px;
+        }
+
+        .banner-content p {
+                font-size: 20px;
+        }
+
+        .section-heading {
+                font-size: 28px;
+        }
+
+        .section-desc {
+                font-size: 18px;
+                margin-bottom: 30px;
+        }
+
+        .start-jouney-content h4 {
+                font-size: 30px;
+        }
+
+        .building-warp .grid {
+                grid-template-columns: 1fr;
+        }
+
+        .section-title {
+                font-size: 30px;
+        }
+
+        .section-desc {
+                font-size: 16px;
+        }
+
+        .footer-news-letter .form form input {
+                flex-grow: unset;
+                width: 100%;
+                font-size: 12px;
+        }
+
+        .footer-news-letter .primary-btn {
+                padding: 8px 8px;
+        }
+
+        .footer-bottom p {
+                font-size: 12px;
+        }
+
+        .site-nav {
+                top: 84px;
+        }
+
+        .name-grid {
+                grid-template-columns: 1fr;
+        }
+
+        .dob-group {
+                grid-template-columns: 1fr 1fr;
+        }
+
+        .dob-group .form-field select:last-child {
+                grid-column: 1 / -1;
+        }
+
+        .public {
+                padding: 18px 10px;
+        }
+
+        .social-entry {
+                padding: 18px 10px;
+        }
+
+        .parent {
+                padding: 18px 10px;
+        }
+
+        .heading-bar {
+                font-size: 18px;
+        }
+
+        .label-bar {
+                font-size: 12px;
+                margin-bottom: 4px;
+        }
+
+        .alora-text h2 {
+                font-size: 26px;
+        }
+
+        .location-bar ul {
+                gap: 7px 12px;
+        }
+
+        .alora-img {
+                width: 126px;
+                height: 126px;
+        }
+
+        .alora-flex {
+                grid-template-columns: 126px 1fr;
+                align-items: center;
+        }
+
+        .personal-main {
+                padding: 10px 0;
+        }
+
+        .parent .athlete-home.grid-cols-2 {
+                grid-template-columns: 1fr 1fr;
+        }
+
+        .radio-group {
+                padding: 10px;
+        }
+
+        .form-field select {
+                font-size: 12px;
+        }
+
+        .form-field input {
+                font-size: 12px;
+        }
+
+        .form-field .dob-group select {
+                grid-column: 1 / -1;
+        }
+
+        .dashboard-tabs .nav-pills {
+                margin-bottom: 14px;
+        }
+
+        .start-jouney-content h4 span {
+                display: inline;
+        }
 }
 
 @media screen and (max-width:480px) {
 
-.banner-content h1 {
-font-size: 30px;
-}
-.site-header .secondary-btn {
-margin-right: 11px;
-font-size: 14px;
-padding: 10px 14px;
-}
-.primary-btn {
-font-size: 14px;
-}
-.start-jouney-content h4 {
-font-size: 25px;
-}
-.tab-content-wrap {
-padding: 25px 10px;
-}
-.site-nav {
-top: 80px;
-}
-.menu-toggle .bar-1, .bar-2, .bar-3 {
-width: 30px;
-}
-.alora-img {
-width: 100px;
-height: 100px;
-}
-.alora-flex {
-grid-template-columns: 100px 1fr;
-}
-.dashboard-header {
-padding: 24px 15px 0;
-}
-.dashboard-tabs {
-padding: 24px 15px;
-}
-.alora-text h2 {
-font-size: 20px;
-}
-.dashboard-tabs .nav-item button {
-font-size: 12px;
-}
-.athlete-home.grid-cols-2 {
-grid-template-columns: 1fr;
-}
-.athlete-home .form-field:last-child {
-max-width: 100%;
-}
-.location-bar ul a {
-font-size: 11px;
-}
-.personal-main .grid-cols-4 {
-grid-template-columns: repeat(1, 1fr);
-}
-.personal-main .grid-cols-3 {
-grid-template-columns: 1fr;
-}
-}
+        .banner-content h1 {
+                font-size: 30px;
+        }
 
+        .site-header .secondary-btn {
+                margin-right: 11px;
+                font-size: 14px;
+                padding: 10px 14px;
+        }
+
+        .primary-btn {
+                font-size: 14px;
+        }
+
+        .start-jouney-content h4 {
+                font-size: 25px;
+        }
+
+        .tab-content-wrap {
+                padding: 25px 10px;
+        }
+
+        .site-nav {
+                top: 80px;
+        }
+
+        .menu-toggle .bar-1,
+        .bar-2,
+        .bar-3 {
+                width: 30px;
+        }
+
+        .alora-img {
+                width: 100px;
+                height: 100px;
+        }
+
+        .alora-flex {
+                grid-template-columns: 100px 1fr;
+        }
+
+        .dashboard-header {
+                padding: 24px 15px 0;
+        }
+
+        .dashboard-tabs {
+                padding: 24px 15px;
+        }
+
+        .alora-text h2 {
+                font-size: 20px;
+        }
+
+        .dashboard-tabs .nav-item button {
+                font-size: 12px;
+        }
+
+        .athlete-home.grid-cols-2 {
+                grid-template-columns: 1fr;
+        }
+
+        .athlete-home .form-field:last-child {
+                max-width: 100%;
+        }
+
+        .location-bar ul a {
+                font-size: 11px;
+        }
+
+        .personal-main .grid-cols-4 {
+                grid-template-columns: repeat(1, 1fr);
+        }
+
+        .personal-main .grid-cols-3 {
+                grid-template-columns: 1fr;
+        }
+}
