@@ -580,6 +580,10 @@
                 width: 100%;
         }
 
+        .coaching-form-bar1 {
+                grid-template-columns: 1fr;
+        }
+
         /* k */
         .site-logo img {
                 max-width: 150px;
