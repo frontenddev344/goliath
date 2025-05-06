@@ -572,6 +572,14 @@
                 grid-template-columns: 1fr 1fr;
         }
 
+        .coaches-tab-card-wrap {
+                flex-direction: column;
+        }
+
+        .coaches-tabs-card {
+                width: 100%;
+        }
+
         /* k */
         .site-logo img {
                 max-width: 150px;
