@@ -2673,8 +2673,8 @@ ul.social-bar {
 .free_profile .fp-tablink {
     border: 1px solid #EF4868;
     color: #EF4868;
-    padding: 10px 20px;
-    margin: 0 5px;
+    padding: 10px;
+    margin: 0;
     border-radius: 0;
     width: 100%;
     font-size: 16px;
@@ -2687,12 +2687,12 @@ ul.social-bar {
     padding: 0;
     margin: 0;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .free_profile .fp-tabitem {
-    display: inline-block;
+    display: contents;
 }
-
 /* Form card styling */
 .fp-form-section {
     max-width: 500px;
