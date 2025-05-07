@@ -1717,7 +1717,7 @@ img.info {
 .upload-btn-main .file-name {
     color: #EF4868;
     text-decoration: underline;
-    padding-left: 12px;
+    padding-left: 0;
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
