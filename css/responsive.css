@@ -276,6 +276,10 @@
 @media screen and (max-width:991px) {
 
         /* karishma styling */
+        .slider__flex {
+                grid-template-columns: 1fr;
+        }
+
         .profile-top {
                 margin-top: -70px;
         }
@@ -576,7 +580,7 @@
                 flex-direction: column-reverse;
         }
 
-        .slider__col {
+        /* .slider__col {
                 flex-direction: row;
                 align-items: center;
                 margin-right: 0;
@@ -598,7 +602,7 @@
         .slider__next {
                 height: auto;
                 width: 32px;
-        }
+        } */
 }
 
 @media screen and (max-width:575px) {
