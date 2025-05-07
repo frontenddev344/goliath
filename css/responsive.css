@@ -277,10 +277,7 @@
 
         /* karishma styling */
         .profile-page .profile-top .profile-grid-left {
-                display: grid;
-                grid-template-columns: auto 1fr;
-                align-items: end;
-                gap: 18px;
+                grid-template-columns: 1fr;
         }
 
         .profile-page .alora-text-flex {
