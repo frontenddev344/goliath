@@ -588,6 +588,10 @@
                 grid-template-columns: 1fr;
         }
 
+        .coaching-form-icon {
+                width: unset;
+        }
+
         /* k */
         .site-logo img {
                 max-width: 150px;
