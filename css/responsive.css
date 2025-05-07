@@ -276,6 +276,20 @@
 @media screen and (max-width:991px) {
 
         /* karishma styling */
+        .profile-page .profile-top .profile-grid-left {
+                display: grid;
+                grid-template-columns: auto 1fr;
+                align-items: end;
+                gap: 18px;
+        }
+
+        .profile-page .alora-text-flex {
+                display: flex;
+                align-items: flex-start;
+                gap: 0;
+                flex-direction: column;
+        }
+
         .item.left-sidebar-main {
                 width: 100%;
         }
