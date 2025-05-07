@@ -276,8 +276,16 @@
 @media screen and (max-width:991px) {
 
         /* karishma styling */
+        .profile-top {
+                margin-top: -80px;
+        }
+
         .test-scores {
                 grid-template-columns: auto auto auto;
+        }
+
+        .alora-text h2 {
+                font-size: 26px;
         }
 
         .profile-top .alora-img {
