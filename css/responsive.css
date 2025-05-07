@@ -584,6 +584,10 @@
                 grid-template-columns: 1fr;
         }
 
+        .form-bar.coaching-form-bar2 {
+                grid-template-columns: 1fr;
+        }
+
         /* k */
         .site-logo img {
                 max-width: 150px;
