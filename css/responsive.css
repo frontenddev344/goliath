@@ -358,8 +358,9 @@
 
         .start-journey-img img {
                 width: 100%;
-                height: 100%;
-                max-width: 461px;
+                height: 380px;
+                object-fit: contain;
+                max-width: 100%;
         }
 
         .start-journey .grid .item:first-child {
