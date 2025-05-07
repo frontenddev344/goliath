@@ -2363,6 +2363,7 @@ ul.social-bar {
     height: 100%;
     object-fit: cover;
     border-radius: 6px;
+    width: 100%;
 }
 
 .slider .swiper-container {
