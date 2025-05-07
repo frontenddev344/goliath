@@ -280,6 +280,16 @@
                 grid-template-columns: auto auto auto;
         }
 
+        .profile-top .alora-img {
+                width: 150px;
+                height: 150px;
+        }
+
+        .profile-grid-left .circle {
+                width: 200px;
+                height: 200px;
+        }
+
         /* karishma styling */
         .section-heading {
                 font-size: 36px;
