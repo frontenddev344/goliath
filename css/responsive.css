@@ -276,6 +276,14 @@
 @media screen and (max-width:991px) {
 
         /* karishma styling */
+        .item.left-sidebar-main {
+                width: 100%;
+        }
+
+        .item.right-sidebar-main {
+                width: 100%;
+        }
+
         .slider__flex {
                 grid-template-columns: 1fr;
         }
@@ -422,6 +430,28 @@
 @media screen and (max-width:768px) {
 
         /* k */
+        .slider__flex {
+                display: block;
+        }
+
+        .batting-flex {
+                display: flex;
+                flex-wrap: wrap;
+        }
+
+        .batting-flex .batting {
+                width: calc(25% - 24px);
+        }
+
+        .slider__thumbs {
+                height: calc(223px - 98px);
+        }
+
+        .profile-bnnr .banner-img img {
+                object-fit: cover;
+                height: 300px;
+        }
+
         .profile-top .profile-grid-left {
                 display: grid;
                 grid-template-columns: 1fr;
@@ -609,6 +639,22 @@
 @media screen and (max-width:575px) {
 
         /* k */
+        .batting-flex .batting {
+                width: calc(50% - 24px);
+        }
+
+        .sat-btn {
+                padding-left: 0;
+        }
+
+        .sat-btn .heading-bar {
+                margin-bottom: 12px;
+        }
+
+        .profile-top .profile-grid-btn {
+                padding-top: 22px;
+        }
+
         .test-scores {
                 grid-template-columns: 1fr 1fr;
         }

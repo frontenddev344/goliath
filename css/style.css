@@ -2381,6 +2381,14 @@ ul.social-bar {
     flex-direction: column;
 }
 
+.item.left-sidebar-main {
+    width: 26%;
+}
+
+.item.right-sidebar-main {
+    width: 72%;
+}
+
 .slider__prev,
 .slider__next {
     cursor: pointer;
