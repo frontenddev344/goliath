@@ -196,6 +196,14 @@ h6 {
 }
 
 /* site btns  */
+.building-card .icon {
+    transition: transform 0.3s ease;
+}
+
+.building-card:hover .icon {
+    transform: translateY(-5px);
+}
+
 /*header start*/
 .header-top {
     background: var(--green);
