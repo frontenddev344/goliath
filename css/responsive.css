@@ -290,6 +290,14 @@
                 height: 200px;
         }
 
+        .profile-grid-left .text .char {
+                font-size: 14px;
+        }
+
+        .profile-grid-left .text .char {
+                transform-origin: 0 95px;
+        }
+
         /* karishma styling */
         .section-heading {
                 font-size: 36px;
