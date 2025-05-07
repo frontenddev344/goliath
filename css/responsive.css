@@ -417,6 +417,11 @@
 @media screen and (max-width:768px) {
 
         /* k */
+        .profile-top .profile-grid-left {
+                display: grid;
+                grid-template-columns: 1fr;
+        }
+
         .events-details-right {
                 margin-left: 40px;
         }
