@@ -608,6 +608,10 @@
                 grid-template-columns: 1fr 1fr;
         }
 
+        .profile-grid-bar .grid-cols-2 {
+                grid-template-columns: 1fr;
+        }
+
         .coaches-tab-card-wrap {
                 flex-direction: column;
         }
