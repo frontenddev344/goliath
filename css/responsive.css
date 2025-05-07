@@ -636,6 +636,10 @@
                 gap: 10px;
         }
 
+        .space {
+                display: inline-block;
+        }
+
         /* k */
         .site-logo img {
                 max-width: 150px;
