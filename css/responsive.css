@@ -298,6 +298,10 @@
                 transform-origin: 0 95px;
         }
 
+        .general-side .grid-cols-2 {
+                grid-template-columns: 1fr;
+        }
+
         /* karishma styling */
         .section-heading {
                 font-size: 36px;
