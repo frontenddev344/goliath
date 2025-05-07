@@ -2087,8 +2087,9 @@ img.info {
 }
 
 .general-side .grid-cols-2 {
-    grid-template-columns: 361px 1fr;
     gap: 24px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .general-side {
@@ -2642,7 +2643,7 @@ ul.social-bar {
     color: #EF4868;
     padding: 10px 20px;
     margin: 0 5px;
-    border-radius:0;
+    border-radius: 0;
     width: 100%;
     font-size: 16px;
     font-weight: 500;
@@ -2677,13 +2678,15 @@ ul.social-bar {
     font-weight: 500;
     width: 100%;
     border-radius: 0;
-    border: 1px solid #EF4868; 
+    border: 1px solid #EF4868;
 }
-.fp-btn-pink:hover{
+
+.fp-btn-pink:hover {
     background: transparent;
     color: #EF4868;
-    border: 1px solid #EF4868; 
+    border: 1px solid #EF4868;
 }
+
 /* Success message */
 .fp-text-success {
     font-size: 0.875em;
@@ -2712,11 +2715,13 @@ ul.social-bar {
     display: flex;
     justify-content: space-between;
 }
+
 .Referral_code {
     background: #F8F8F8;
     padding: 12px;
     border-radius: 6px;
 }
+
 .coaches {
     text-align: left;
     display: block;
@@ -2724,4 +2729,5 @@ ul.social-bar {
     color: #000 !important;
     margin-top: 8px;
 }
+
 /* sign styling end*/
